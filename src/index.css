@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body {
+    font-family: "Manrope", serif;
+    /* background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(52,106,209,0.1716814159292035) 100%); */
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
