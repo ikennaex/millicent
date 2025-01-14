@@ -27,7 +27,7 @@ const Whatweoffer = () => {
               <div key={item.id} className='w-full md:w-1/2'>
                 <div className=' flex flex-col p-5 bg-custompurple shadow-md rounded-3xl items-center'>
                   <div>
-                  <img src={item.img} alt={item.text} className='h-48' />
+                  <img src={item.img} alt={item.text} className='h-40' />
                   </div>
                   <h4 className='text-2xl font-bold text-center text-white mt-3'>{item.text}</h4>
                 </div>

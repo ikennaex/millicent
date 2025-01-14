@@ -9,6 +9,7 @@ export default {
       colors: {
         customgreen: "#1BBB6B",
         custompurple: "#7934d1",
+        customblue: "#012445"
       },
 
       fontSize: {
