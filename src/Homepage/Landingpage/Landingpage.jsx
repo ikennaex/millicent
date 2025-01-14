@@ -3,6 +3,7 @@ import Navbar from "../Navbar/Navbar"
 import Herosection from "../Herosection/Herosection"
 import Features from "../Features/features"
 import Phonesection from "../Phonesection/Phonesection"
+import Whatweoffer from "../Whatweoffer/Whatweoffer"
 
 
 const Landingpage = () => {
@@ -12,6 +13,7 @@ const Landingpage = () => {
       <Herosection />
       <Features />
       <Phonesection />
+      <Whatweoffer />
     </div>
   )
 }

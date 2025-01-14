@@ -27,7 +27,7 @@ const features = () => {
         <div className='my-7'>
           {features.map((feature) => {
             return (
-          <div key = {feature.id} className='bg-[#012445] mb-7 text-center text-white py-9 flex flex-col items-center '>
+          <div key = {feature.id} className='bg-[#012445] mb-7 rounded-3xl text-center text-white py-9 flex flex-col items-center '>
             <img src= {feature.img} alt="" />
             <h3>{feature.text}</h3>
           </div>
