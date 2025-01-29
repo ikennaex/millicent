@@ -3,6 +3,7 @@ import "./navbar.css"
 import { millicentlogo } from '../../../imports'
 import { IoMdMenu } from "react-icons/io";
 import { IoClose } from "react-icons/io5";
+import { Link } from 'react-router-dom';
 
 
 
@@ -39,7 +40,10 @@ const Navbar = () => {
   return (
     <div className='container mx-auto mb-7'>
         <div className=' p-4 flex items-center shadow-md justify-between'>
+
+          <Link to = "/" >
         <img className='h-5' src= {millicentlogo} alt="" />
+          </Link>
         <div className='hidden gap-20 mx-auto md:flex'>
             {menuItems.map(menu => (
                     <p className='nav-menu'>{menu.item}</p>

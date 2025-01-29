@@ -12,7 +12,7 @@ const SignUp = () => {
         </div>
 
         <form action="" className='flex flex-col gap-4 mt-7'>
-            <input className='h-15 bg-customGray w-full p-5 rounded-xl' type="text" placeholder='Email' />
+            <input className='h-15 bg-customGray w-full p-5 rounded-xl' type="email" placeholder='Email' />
             <input className='h-15 bg-customGray w-full p-5 rounded-xl' type="password" placeholder='Password' />
             <input className='h-15 bg-customGray w-full p-5 rounded-xl' type="password" placeholder='Confirm Password' />
             <button className='h-15 p-5 text-white font-bold bg-custompurple rounded-xl'>Create Account</button>
