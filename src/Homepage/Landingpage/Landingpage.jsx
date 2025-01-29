@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from "../Navbar/Navbar"
+// import Navbar from "../Navbar/Navbar"
 import Herosection from "../Herosection/Herosection"
 import Features from "../Features/features"
 import Phonesection from "../Phonesection/Phonesection"
@@ -12,7 +12,7 @@ import Footer from '../Footer/Footer'
 const Landingpage = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Herosection />
       <Features />
       <Phonesection />
