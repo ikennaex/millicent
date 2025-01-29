@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-// import "./navbar.css"
+import "./navbar.css"
 import { millicentlogo } from '../../../imports'
 import { IoMdMenu } from "react-icons/io";
 import { IoClose } from "react-icons/io5";
@@ -50,13 +50,13 @@ const Navbar = () => {
           {open? <IoClose size={30} /> : < IoMdMenu size={30} /> }
         </div>
 
-        </div>
+        </div >
         {open && 
-        <div className='flex flex-col gap-5 px-4 mt-5'>
+        <div className='flex flex-col gap-5 px-4 mt-5 slide-in-blurred-right'>
           {menuItems.map((items) => {
             return (
               <div className='border-b border-black'>
-                <a  href={items.link} className='nav-menu'>{items.item}</a>
+                <a  href={items.link} className='nav-menu font-bold'>{items.item}</a>
               </div>
             )
           })}
