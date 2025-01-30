@@ -26,6 +26,8 @@ const Footer = () => {
       link: "",
     },
   ]
+
+  const date = new Date().getFullYear()
   return (
     <div className='container mx-auto bg-[#efefef]'>
       <div className='p-7'>
@@ -52,7 +54,7 @@ const Footer = () => {
 
         <div className='text-center text-sm mt-7'>
           <p>Made with 💜 by xMotivo Technologies Limited</p>
-          <p>Copyright Millicent @2024</p>
+          <p>Copyright Millicent @ {date}</p>
         </div>
       </div>
     </div>
